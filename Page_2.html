@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Applications of CSS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+       body
+       {
+        background-image: url(https://static.vecteezy.com/system/resources/thumbnails/050/737/026/small_2x/abstract-background-neon-wave-lines-on-dark-blue-background-modern-glowing-flow-lines-suitable-for-presentation-backgrounds-invitations-covers-headers-and-footers-vector.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+        .Heading {
+            background-color: rgb(67, 141, 210);
+            width: 100%;
+            height: 80px;
+            margin-top: 0;
+            text-align: center;
+            color: white;
+            font-size: 60px;
+        }
+        table{
+            width: 100%;
+            height: 100%;
+            justify-content: space-evenly;
+        }
+        .box{
+            margin: 20px;
+            width: 350px;
+            height: 400px;
+            background-color: rgba(255, 255, 255, 0.947);
+            border-radius: 30px;
+            transition: 0.3s ease-in-out;
+            opacity: 0.9;
+            text-align: center;
+            border-color: gray;
+        }
+        .box:hover{
+            transform: scale(1.2);
+            opacity: 1.0;
+            background-color: black;
+            color: white;
+            border-color: white;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+            <h1 class="Heading">Applications of CSS</h1>
+        <table cellspacing="100px">
+            <tr>
+                <td>
+                    <a href="internal-css.final.html">
+                    <button  class="box">
+                        <h1 style="font-size: 40px;">Internal CSS</h1><br>
+                        <h1>Best for single-page styles.</h1>
+                    </button></a>              
+                </td>
+                <td>
+                    <a href="External_css_final.html">
+                    <button  class="box">
+                        <h1  style="font-size: 35px;">External CSS</h1><br>
+                        <h1>Best for consistent multi-page styles.</h1>
+                    </button></a>              
+                </td>
+                <td>
+                    <a href="Inline_css_final.html">
+                    <button  class="box">
+                        <h1  style="font-size: 35px;">Inline CSS</h1>
+                        <br>
+                        <h1>Best for individual styling.</h1>
+                    </button></a>              
+                </td>
+            </tr>
+        </table>
+</body>
+</html>
+        
