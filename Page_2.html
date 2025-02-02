@@ -14,13 +14,12 @@
         background-attachment: fixed;
     }
         .Heading {
-            background-color: rgb(67, 141, 210);
             width: 100%;
-            height: 80px;
+            height: 160px;
             margin-top: 0;
             text-align: center;
             color: white;
-            font-size: 60px;
+            font-size: 70px;
         }
         table{
             width: 100%;
@@ -29,8 +28,8 @@
         }
         .box{
             margin: 20px;
-            width: 350px;
-            height: 400px;
+            width: 450px;
+            height: 500px;
             background-color: rgba(255, 255, 255, 0.947);
             border-radius: 30px;
             transition: 0.3s ease-in-out;
@@ -45,16 +44,28 @@
             color: white;
             border-color: white;
         }
+        .heading{
+            margin-left: 100px;
+            background-color: antiquewhite;
+            width:550px;
+            height: 55px;
+            text-align: center;
+            border-radius: 15px;
+            border: 5px solid white;
+            font-size: 40px;
+        }
     </style>
     <title>Document</title>
 </head>
 <body>
-            <h1 class="Heading">Applications of CSS</h1>
+            <h1 class="Heading"><b style="color: skyblue;">Cascading</b> <br> Stylesheet (CSS)</h1>
+            <h2 class="heading">The different types of CSS:</h2>
         <table cellspacing="100px">
             <tr>
                 <td>
                     <a href="internal-css.final.html">
                     <button  class="box">
+                        <img style="width: 100%; height: 45%;" src="data:image/png;base64,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">
                         <h1 style="font-size: 40px;">Internal CSS</h1><br>
                         <h1>Best for single-page styles.</h1>
                     </button></a>              
@@ -62,6 +73,7 @@
                 <td>
                     <a href="External_css_final.html">
                     <button  class="box">
+                        <img style="width: 100%;" height="45%;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXrpC8d-TSMABxFE-QnXSIFtcZjgEnWMbngw&s">
                         <h1  style="font-size: 35px;">External CSS</h1><br>
                         <h1>Best for consistent multi-page styles.</h1>
                     </button></a>              
@@ -69,6 +81,7 @@
                 <td>
                     <a href="Inline_css_final.html">
                     <button  class="box">
+                        <img style="height: 45%; width: 100%;" src="https://img.uxcel.com/practices/inline-css-1621258111813/a-1664876424629-2x.jpg">
                         <h1  style="font-size: 35px;">Inline CSS</h1>
                         <br>
                         <h1>Best for individual styling.</h1>
