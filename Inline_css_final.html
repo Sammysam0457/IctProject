@@ -33,7 +33,18 @@
             border-radius: 15px;
             border: none;
         }
-
+        li{
+            font-size: 20px;
+            text-align: left;
+        }
+        .button{
+            transition: 0.6s ease-in-out;
+        }.button:hover{
+            background-color: rgb(126, 255, 255);
+            transform: scale(1.2);
+            border: 5px white solid;
+            color: rgb(12, 11, 11);
+        }
        
     </style>
 </head>
@@ -42,18 +53,18 @@
     <table cellspacing="100px">
         <tr>
             <td rowspan="2" class="box">
-                <h1 style="text-align: center;">When to use Applications/use</h1>
+                <h1 style="text-align: center;">When to use Applications/use</h1><br><br>
             
                 <h3>Applications</h3>
                 <ul>
-                    <li>Perfect for specific changes of the elements without affecting  other parts of the website</li>
-                    <li>Useful when you need an element to stand out</li>
+                    <li>Perfect for specific changes of the elements without affecting  other parts of the website</li><br>
+                    <li>Useful when you need an element to stand out</li><br>
                 </ul>
     
             </td>
             <td class="box">
-             <h3>Example code</h3>
-             <pre>
+             <h1>Example code</h1>
+             <pre style="font-size: 18px;">
                 &lt;!DOCTYPE html&gt;
                 &lt;html&gt;
                 &lt;body&gt;
@@ -66,7 +77,7 @@
     </td>
         </tr>
         <tr>
-            <td style="display: flex; align-items: center; justify-content: center;"><a href="Index1_inline.html"><button><b style="text-transform: capitalize;">Click to see the output browser</b></button></a></td>
+            <td style="display: flex; align-items: center; justify-content: center;"><a href="Index1_inline.html"><button class="button"><b style="text-transform: capitalize;">Click to see the output browser</b></button></a></td>
         </tr>
     </table>
 </body>
