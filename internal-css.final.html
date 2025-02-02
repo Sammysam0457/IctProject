@@ -11,9 +11,6 @@
             justify-content: space-evenly;
             margin-top: -50px;
         }
-        *{
-
-        }
         .box{
             margin: 20px;
             width: 250px;
@@ -33,7 +30,18 @@
             border-radius: 15px;
             border: none;
         }
-
+        li{
+            font-size: 20px;
+            text-align: left;
+        }
+        .button{
+            transition: 0.6s ease-in-out;
+        }.button:hover{
+            background-color: rgb(126, 255, 255);
+            transform: scale(1.2);
+            border: 5px white solid;
+            color: rgb(12, 11, 11);
+        }
        
     </style>
 </head>
@@ -42,32 +50,30 @@
     <table cellspacing="100px">
         <tr>
             <td rowspan="2" class="box">
-                <h1 style="text-align: center;">When to use Applications/use</h1>
-            
-                <h3>Applications</h3>
+                <h1 style="text-align: center;">When to use Applications/use</h1><br><br>
     <ul>
-        <li>Keeps styles within the HTML file but can lead to large and cluttered documents.</li>
-        <li>internal CSS for unique styling on specific pages.</li>
-        <li>can be useful for landing pages, for specific goals</li>
+        <li>Keeps styles within the HTML file but can lead to large and cluttered documents.</li><br>
+        <li>internal CSS for unique styling on specific pages.</li><br>
+        <li>can be useful for landing pages, for specific goals</li><br>
     </ul>
     
             </td>
             <td class="box">
-             <h3>Example code</h3>
-    <pre>
-        EXAMPLE: [style]
+             <h1>Example code</h1>
+    <pre style="font-size: 20px;">
+        EXAMPLE: &lt;style&gt;
             body {
                 font-family: Arial, sans-serif;
             }
             h1 {
                 color: blue;
             }
-        [/style]
+            &lt;/style&gt;
     </pre>
     </td>
         </tr>
         <tr>
-            <td style="display: flex; align-items: center; justify-content: center;"><a href="Index1_internal.html"><button><b style="text-transform: capitalize;">Click to see the output browser</b></button></a></td>
+            <td style="display: flex; align-items: center; justify-content: center;"><a href="Index1_internal.html"><button class="button"><b style="text-transform: capitalize;">Click to see the output browser</b></button></a></td>
         </tr>
     </table>
 </body>
